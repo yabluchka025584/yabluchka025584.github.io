@@ -1,0 +1,21 @@
+div{
+    background-color: rgb(38, 38, 46);
+    display: inline-block;
+}
+h2{
+    font-size: 7rem;
+    margin: 0;
+    color: rgba(12, 12, 12, 0.5);
+    background-image: url(vogon.gif);
+    -webkit-background-clip: text;
+    animation: texstuk  5s infinite linear;
+
+
+}
+@keyframes texstuk{
+    0%{ background-position: left 0 top 80px;  }
+            35%{  background-position: left 800px top -60px;  }
+            75%{  background-position: left 1600px top -70px ;  }
+            100%{  background-position: left 2200px top 80px ;  }
+        
+}
