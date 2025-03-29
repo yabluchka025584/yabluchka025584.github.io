@@ -1,0 +1,47 @@
+img{
+    width: 100%;
+    transition: 0.8s;
+   
+}
+
+   
+    
+
+.nav-link{
+    color: rgb(121, 135, 130);
+}
+.logo{
+    width: 70px;
+    
+    
+}
+.footer{
+    background-color: rgb(22, 20, 35);
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+}
+h3{
+    padding: 10px;
+}
+.col-md-5{
+overflow: hidden;
+}
+img:hover{
+transform: scale(1.5);
+}
+.container-fluid{
+    overflow: hidden;
+}
+i{
+    font-size: 1.5rem;
+}
+i:hover{
+    color: rgb(50, 50, 163);
+    transition: 0.5s;
+
+}
