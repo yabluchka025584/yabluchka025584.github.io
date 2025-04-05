@@ -1,0 +1,68 @@
+img{
+    width: 100%;
+
+}
+.logo{
+    width: 70px;
+}
+.big-photo{
+    background-image: url(banner.jpg);
+    height: 600px;
+    color: aliceblue;
+    padding: 10px;
+    background-size: cover;
+    background-position: 40% 50%;
+    
+
+}
+.row{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    align-items: center;
+}
+.hut{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.498),rgba(143, 187, 130, 0.515)), url(the-hut-bg.png);
+    height: 300px;
+    color: rgb(255, 255, 255);
+    display: flex; 
+    align-items: center;
+    background-position: 40% 50%;
+    background-size: cover;
+
+
+    
+}
+h1,p{
+    
+}
+body{
+    margin: 0;
+   
+}
+.forest{
+    background-image:linear-gradient(rgba(21, 56, 26, 0.284),rgba(143, 187, 130, 0.324)), url(the-area.png);
+    height: 300px;
+    color: rgb(255, 255, 255);
+    display: flex; 
+    align-items: center;
+    background-position: 40% 50%;
+    background-size: cover;}
+.footer{
+    
+        background-color: rgba(28, 35, 20, 0.597);
+        color: aliceblue;
+        padding: 20px;
+        margin-top: 20px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap p{
+    margin-right: 15px;
+    font-size: 10px;
+
+}
+.nav-link{
+    color: black;
+}
